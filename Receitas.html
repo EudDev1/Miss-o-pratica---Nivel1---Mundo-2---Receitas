@@ -1,64 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!----Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!----CSS-->
+    <link rel="stylesheet" href="formatos.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="formatos.css">
-    <link rel="stylesheet" href="receitas.css">
     <title>Receitas da Dona Andrea</title>
-</head>
+  </head>
 
-<body class="container">
+  <body class="container">
     <header class="header">
-        <a href="#" class="link-main">Menu</a>
+      <nav class="nav">
+        <a class="nav-link active" href="./home.html">Home</a>
+        <a class="nav-link" href="./Receitas.html">Receitas</a>
+        <a class="nav-link" href="./cadastro.html">cadastro</a>
+      </nav>
     </header>
     <main class="receitas">
-        <div class="div-receita">
-            <h2>Arroz de Couve-Flor</h2>
-            <img src="https://www.mundoboaforma.com.br/wp-content/uploads/2021/12/Arroz-couve-flor.jpg"
-                alt="Arroz de Couve-flor" class="img-receita">
-            <div class="lista">
-                    <li>Arroz</li>
-                    <li>Couve-Flor</li>
-                    <li>Cebola Média</li>
-                    <li>Azeite</li>
-            </div>
-            <p>Deixe a couve-flor picada. Adicione os ingredientes e refoguebem. Adicione sal,tampe apanela e deixe
-                cozinhar
-            </p>
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="https://www.mundoboaforma.com.br/wp-content/uploads/2021/12/Arroz-couve-flor.jpg"
+          alt="Arroz de Couve-Flor"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Arroz de Couve-Flor</h5>
+          <div class="lista">
+            <li>Arroz</li>
+            <li>Couve-Flor</li>
+            <li>Cebola Média</li>
+            <li>Azeite</li>
+          </div>
+          <hr />
+          <p class="card-text">
+            Deixe a couve-flor picada. Adicione os ingredientes e refoguebem.
+            Adicione sal,tampe apanela e deixe cozinhar.
+          </p>
         </div>
+      </div>
 
-        <div class="div-receita">
-            <h2>Bolo de café</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzO05qKQJI-rhEjj7SNpSuXk1oP6lPcjaQA&usqp=CAU"
-                alt="Bolo de café" class="img-receita">
-            <div class="lista">
-                    <li>Farinha de Trigo</li>
-                    <li>Açúcar</li>
-                    <li>Café Coado</li>
-                    <li>Chocolate em Pó</li>
-                    <li>Ovos</li>
-            </div>
-            <p>Bata o açucar , as gemas eo café. Adicione farinha e chocolate e mexa bem. bata as claras e junte à mistura.            </p>
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzO05qKQJI-rhEjj7SNpSuXk1oP6lPcjaQA&usqp=CAU"
+          alt="Bolo de café"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Bolo de Café</h5>
+          <div class="lista">
+            <li>Farinha de Trigo</li>
+            <li>Açúcar</li>
+            <li>Café coado</li>
+            <li>Chocolate em Pó</li>
+            <li>Ovos</li>
+          </div>
+          <hr />
+          <p class="card-text">
+            Bata o açucar , as gemas eo café. Adicione farinha e chocolate e
+            mexa bem. bata as claras e junte à mistura.
+          </p>
         </div>
- 
-        <div class="div-receita">
-            <h2>Coxinha de Brigadeiro</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYYNm0cdHXNIuGh8qnrxSWonEcOamMBXZ3Ww&usqp=CAU"
-                alt="Coxinha de Brigadeiro" class="img-receita">
-            <div class="lista">
-                    <li>Leite Condensado</li>
-                    <li>Chocolate em Pó</li>
-                    <li>Manteiga</li>
-                    <li>Chocolate Granulado</li>
-            </div>
-            <p>Junte o leite condensado, chocolate em pó e manteiga. Aqueça no fogo beixo. Envolva os morango e passe no granulado.
-            </p>
+      </div>
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYYNm0cdHXNIuGh8qnrxSWonEcOamMBXZ3Ww&usqp=CAU"
+          alt="Coxinha de Brigadeiro"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Coxinha de Brigadeiro</h5>
+          <div class="lista">
+            <li>Leite Condensado</li>
+            <li>Chocolate em Pó</li>
+            <li>Manteiga</li>
+            <li>Chocolate Granulado</li>
+          </div>
+          <hr />
+          <p class="card-text">
+            Junte o leite condensado, chocolate em pó e manteiga. Aqueça no fogo
+            beixo. Envolva os morango e passe no granulado.
+          </p>
         </div>
-
+      </div>
     </main>
-    <footer>©Andrea 2023</footer>
 
+    <footer>©Andrea 2023</footer>
+  </body>
 </html>
+
+<style>
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .nav {
+    padding-left: 10px;
+    height: auto;
+    margin-top: 0;
+    align-items: center;
+  }
+
+  .header {
+    background: #000;
+    color: #fff;
+    width: 100vw;
+    padding: 0;
+  }
+
+  .receitas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15% 0 40px 30%;
+    margin-bottom: 40px;
+  }
+
+  .card {
+    width: 200px;
+    margin: 10px;
+    height: auto;
+    align-items: center;
+  }
+</style>
