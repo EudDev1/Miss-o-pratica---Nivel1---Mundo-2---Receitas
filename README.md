@@ -19,7 +19,8 @@
   <table>
   <tr>
     <td align="center">
-        <img src="./assets/cadastro.png" width="400">
+        <img src="./assets/Cgit add. 
+        Cadastro.png" width="400">
     </td>
 </tr>
 </table>
